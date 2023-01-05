@@ -1,11 +1,19 @@
-We have data of sales of house in some area. For each house we
-have complete information about its Size, Price, Number of
-Bedrooms, Number of Bathrooms, whether it is made of bricks,
-Neighbourhood.
 
-Objective of this Study is to check which factors are effecting
-house price.
 
+A real estate company has a dataset containing the prices of properties in a particular region. It wishes to use the data to optimise the sale prices of the properties based on important factors such as area, bedrooms, parking, etc.
+
+Essentially, the company wants —
+
+* To identify the variables affecting house prices, e.g. area, number of rooms, bathrooms, etc.
+
+* To create a linear model that quantitatively relates house prices with variables such as number of rooms, area, number of bathrooms, etc.
+
+* To know the accuracy of the model, i.e. how well these variables can predict house prices.
+
+* We shall perform the analysis using both the below methods
+
+* Bottom up approach: Manual method of staring with one variable adding further variables to improve the model
+* Top down approach: Using the automated method of Recursive Feature Elimination (RFE) to eliminate variables to arrive at the best fit model.
 
 *Result*:
 A regression model that would be able to accurately predict the House Price based on the input variables.
